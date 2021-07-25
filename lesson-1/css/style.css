@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    height: 0px;
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background: rgb(25, 103, 109);
+    height: 60px;
+}
+
+.btn-cart {
+    text-decoration: none;
+    padding: 10px 15px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+
+.btn-cart:hover {
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgb(8, 156, 255);
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.products__btn {
+    background: rgb(25, 103, 109);
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.products__price {
+    font-weight: bold;
+}
